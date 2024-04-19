@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    /* box-sizing: border-box; */
+}
+.main{
+    width: 100%;
+    /* background-color: #f0f2f5; */
+    background-color: #00a400;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.sub1{
+    width: 40%;
+    background-color:#f0f2f5;
+    height: 65%;
+    /* padding-top: 20%; */
+}
+.sub2{
+    width: 60%;
+    /* background-color: #f0f2f5; */
+    background-color: #00a400;
+    height: 390px;
+}
+img{
+    width: 361px;
+    height: 106px;
+    padding-left: 4%;
+    margin-top: 12%;
+    
+    
+}
+/* .q{
+    width: 77%;
+    background-color: #f0f2f5;
+    margin-left: 13%;
+} */
+.quote{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+}
+.login{
+    width: 300px;
+    height: 300px;
+    background-color:white;
+    top: 30px;
+    left: 2px;
+    position: relative;
+    border-radius: 11px;
+    box-shadow: 1px 1px 10px lightgrey;
+    border-color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 15px;
+
+    
+}
+input{
+    margin-top: 10px;
+    display: block;
+    width: 280px;
+    height: 40px;
+    border: solid;
+    border-color: lightgray;
+    outline-color: rgb(38, 137, 224);
+    border-width: 1px;
+    border-radius: 5px;
+    padding-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}::placeholder{
+    color: rgb(185, 182, 182);
+}
+button{
+    width: 292px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 5px;
+    background-color:#1877f2;
+    margin-bottom: 15px;
+}
+.l{
+    font-weight: bold;
+    color: white;
+}
+a{
+    padding-left: 75px;
+    color: #1877f2; 
+    text-decoration: none;
+}
+hr{
+    margin-top: 25px;
+    border-color: #f0f2f5
+}
+.newAcc{
+    margin-top: 20px;
+    height: 40px;
+    width: 192px;
+    background-color: #00a400;
+    position: relative;
+    left: 55px;
+}
+
+@media only screen and (max-width: 1000px){
+    
+  }
